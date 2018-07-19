@@ -7,7 +7,7 @@ import scala.annotation.tailrec
 //scala> length(List(1, 1, 2, 3, 5, 8))
 //res0: Int = 6
 
-object p04 {
+object P04 {
 
   @tailrec
   def length[A](list: List[A], start: Int = 0): Int = {
